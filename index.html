@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="styles.css">
+      <script type="text/javascript" src="main.js"></script>
+    </head>
+
+  <body onload="getStatus()">
+      <header class=main-header>
+          <h1>Target view</h1>
+      </header>
+
+      <nav class=navbar>
+          <ul>
+              <li> <a href="getStatus()">Setup</a> </li>
+              <li> <a href="hub.html">Targets</a> </li>
+          </ul>
+      </nav>
+
+      <div id=showcase></div>
+      <div id="status-div">
+        <h2>Status</h2>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Running</th>
+              <th>Connected</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>Server </th>
+              <th><p class=not-active id=server-running> </p></th>
+              <th><p class=not-active id=server-connected></p></th>
+            </tr>
+
+            <tr>
+              <th>Target 1</th>
+              <th><p class=not-active id=target-1-running></p></th>
+              <th><p class=not-active id=target-1-connected></p></th>
+            </tr>
+
+            <tr>
+              <th>Target 2</th>
+              <th><p class=not-active id=target-2-running></p></th>
+              <th><p class=not-active id=target-2-connected></p></th>
+            </tr>
+
+          </tbody>
+        </table>
+
+
+      <button class=button onclick="window.location.reload();">Refresh</button>
+    </div>
+
+    <footer>
+      <p>Created by Séverin Ferard</p>
+      <p><footer>&copy; Copyright 2019 </footer>
+      </p>
+    </footer>
+  </body>
+</html>

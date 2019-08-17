@@ -1,0 +1,78 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font: 16px tahoma, Avenir;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-header {
+  background-color: #f9ce1a;
+  padding: 15px;
+  text-align: left;
+  font-size: 21px;
+}
+
+.navbar{
+  background-color: #4b4b4b;
+  color: #black;
+}
+
+.navbar ul{
+  margin: 0px;
+  padding: 0.6em;
+}
+
+.navbar li{
+  display: inline;
+}
+
+.navbar a, button{
+  color: #fff;
+  text-decoration: none;
+  font-size: 45px;
+  padding-right: 1em;
+}
+
+
+#myCanvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* display: block; */
+  /* overflow: hidden; */
+}
+
+.score_board {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.score-head {
+  font-size: 5em;
+  padding-left: 0.5em;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.score-point {
+  font-size: 5em;
+  padding-left: 0.5em;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+.score-row {
+  padding: 0;
+  margin: 0;
+}
+
+table {
+
+width: 100%
+}

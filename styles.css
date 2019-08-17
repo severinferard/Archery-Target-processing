@@ -1,0 +1,94 @@
+
+
+body{
+  background-color: #fff;
+  font: 16px tahoma, Avenir;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-header{
+background-color: #f9ce1a;
+padding: 5px;
+text-align: left;
+}
+
+#showcase{
+  background-image: url("images/showcase.jpg");
+  background-position: bottom, left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+.navbar{
+background-color: #4b4b4b;
+color: #black;
+}
+
+.navbar ul{
+  margin: 0px;
+  padding: 0.2em;
+}
+
+.navbar li{
+  display: inline;
+}
+
+.navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 1em;
+}
+
+.active {
+  height: 15px;
+  width: 15px;
+  background-color: #19c915;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.not-active {
+  height: 15px;
+  width: 15px;
+  background-color: #cc2424;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.waiting {
+  height: 15px;
+  width: 15px;
+  background-color: #ff7c11;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button {
+  background-color: #4b4b4b;
+  color: #fff;
+  border: none;
+}
+
+.button:active{
+  background-color: #fff
+}
+
+#status-div {
+  margin: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  padding-top: 0px;
+  border: solid 2px #4b4b4b;
+}
+
+#status-div > h2 {
+  margin-top: 0px;
+}
+
+footer{
+  text-align: center;
+
+}
