@@ -5,7 +5,8 @@ The app uses computer computer vision to identify the point of impact of each ar
 ![](388c0t.gif)
 
 ## Hardware
-![](box.gif)
+<img width="25%" height="25%" src="box.gif">
+
 The project uses:
 - a Raspberry Pi B with a camera module
 - a HC-SR04 ultrasonic distance sensor
